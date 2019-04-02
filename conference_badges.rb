@@ -30,11 +30,11 @@ end
  end
  
 def printer
-  for i in batch_badge_creator
-    puts i
+  for item in batch_badge_creator
+    puts item
   end
-  for i in assign_rooms
-    puts i
+  for item in assign_rooms
+    puts item
   end
 end
  
