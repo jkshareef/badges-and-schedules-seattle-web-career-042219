@@ -10,6 +10,7 @@ def batch_badge_creator(array)
   end
   puts arr
   puts arr.size
+  puts arr[2]
   arr
 end
 
