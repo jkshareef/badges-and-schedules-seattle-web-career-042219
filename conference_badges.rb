@@ -7,9 +7,9 @@ def batch_badge_creator(array)
   arr = Array.new
   for name in array
     arr.push(badge_maker(name))
-    puts arr
   end
   puts arr
+  puts arr.size
   arr
 end
 
