@@ -29,6 +29,10 @@ end
    arr
  end
  
+ 
+ 
+ 
+ 
 def printer
   for item in batch_badge_creator
     puts item
