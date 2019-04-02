@@ -8,6 +8,7 @@ def batch_badge_creator(array)
   for i in array
     arr.push(badge_maker(i))
   end
+  puts arr
   arr
 end
 
@@ -26,6 +27,7 @@ end
    array.each_with_index {|name, index|
     arr.push("Hello, #{name}! You'll be assigned to room #{index+1}!")
    }
+   puts arr
    arr
  end
  
