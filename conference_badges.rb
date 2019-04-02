@@ -29,12 +29,12 @@ end
    arr
  end
  
- def printer
-   for i in batch_badge_creator
+def printer
+  for i in batch_badge_creator
     puts batch_badge_creator
   end
   for i in assign_rooms
-   puts assign_rooms
+    puts assign_rooms
   end
 end
  
