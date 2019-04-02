@@ -42,5 +42,5 @@ def printer
   end
 end
  
-puts batch_badge_creator(people)
-puts assign_rooms(people)
+batch_badge_creator(people)
+assign_rooms(people)
