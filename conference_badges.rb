@@ -33,11 +33,11 @@ end
  people = ["Edger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
  
  
-def printer
-  for item in batch_badge_creator
+def printer(attendees)
+  for item in batch_badge_creator(attendees)
     puts item
   end
-  for item in assign_rooms
+  for item in assign_rooms(attendees)
     puts item
   end
 end
