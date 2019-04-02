@@ -33,7 +33,7 @@ end
    for i in batch_badge_creator
     puts batch_badge_creator
   end
-  for in in assign_rooms
+  for i in assign_rooms
    puts assign_rooms
   end
 end
