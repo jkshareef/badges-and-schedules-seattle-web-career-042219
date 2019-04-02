@@ -44,4 +44,4 @@ end
  
 puts batch_badge_creator(people)
 puts assign_rooms(people)
-printer
+printer()
