@@ -30,7 +30,7 @@ end
  end
  
  
- 
+ people = ["Edger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
  
  
 def printer
@@ -42,3 +42,6 @@ def printer
   end
 end
  
+puts batch_badge_creator(people)
+puts assign_rooms(people)
+printer
